@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.text h4 {
+    /* width: 1%; */
+    padding: 100px 0px;
+    letter-spacing: 10px;
+}
+
+.main {
+    width: 50%;
+    height: 30rem;
+    padding: 10px 0px;
+    display: flex;
+    margin-bottom: 5rem;
+    border-radius: 15px;
+    background-color: #fcfcfc;
+    justify-content: space-between;
+    padding: 50px 30px;
+}
+
+.text-container {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    text-align: end;
+    background-color: transparent;
+    /* outline: none; */
+    border: none;
+    width: 100%;
+}
+
+.input h4 {
+    text-align: left;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.input .cont {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 9px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee7e7;
+}
+
+.input1 h4 {
+    text-align: left;
+    font-weight: 100;
+    margin-bottom: 0.8rem;
+}
+
+.input1 .cont {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 9px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee7e7;
+}
+
+.input2 h4 {
+    text-align: left;
+    font-weight: 100;
+    margin-bottom: 0.8rem;
+}
+
+.input2 .cont {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee7e7;
+}
+
+.main2 {
+    width: 50%;
+    border-radius: 8px;
+    background-color: rgb(12, 63, 46);
+}
+
+.main-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.main-text div h5 {
+    color: #fff;
+}
+
+.main-text div p {
+    text-align: left;
+    color: #fff;
+    font-size: 13px;
+
+}
+
+.main-text p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn {
+    all: unset;
+    color: rgb(12, 63, 46);
+    padding: 10px 90px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: rgb(104, 204, 149);
+    cursor: pointer;
+}
+
+.btt {
+    all: unset;
+    color: rgb(12, 63, 46);
+    margin-top: 6rem;
+    padding: 10px 90px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: rgb(104, 204, 149);
+    cursor: pointer;
+}
+
+.error{
+    background-color: red;
+    color: white;
+    padding: 5px 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}

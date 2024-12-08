@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="container">
+        <div class="text">
+            <h4>SPLITTER</h4>
+        </div>
+        <p class="error"></p>
+        <div class="main">
+            <div class="text-contain">
+                <div class="input">
+                    <h4>Bill</h4>
+                    <div class="cont">
+                        <p>$</p>
+                        <input placeholder="0" type="number" class="bill">
+                    </div>
+                </div>
+                <div class="input1">
+                    <h4>Select Tip %</h4>
+                    <div class="cont">
+                        <p>$</p>
+                        <input placeholder="0" type="number" class="tip">
+                    </div>
+                </div>
+                <div class="input2">
+                    <h4>Number of People</h4>
+                    <div class="cont">
+                        <i class="ri-contacts-fill"></i>
+                        <input placeholder="0" type="number" class="people">
+                    </div>
+                </div>
+                <button class="btn" onclick="calculateTip()">Calculate Tip</button>
+            </div>
+            <div class="main2">
+                <div class="in-main">
+                    <div class="main-text">
+                        <div>
+                            <h5>Tip Amount</h5>
+                            <p>/ person</p>
+                        </div>
+                        <p class="tipAns"> $0.00</p>
+                    </div>
+                    <div class="main-text">
+                        <div>
+                            <h5>Total</h5>
+                            <p>/ person</p>
+                        </div>
+                        <p class="totalAns"> $0.00</p>
+                    </div>
+                </div>
+                <button class="btt">RESET</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
