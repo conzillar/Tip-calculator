@@ -47,14 +47,15 @@ body {
 input {
     text-align: end;
     background-color: transparent;
-    /* outline: none; */
+    outline: none;
     border: none;
     width: 100%;
 }
 
 .input h4 {
     text-align: left;
-    font-weight: 100;
+    font-weight: 500;
+    /* color: rgb(197, 77, 77); */
     margin-bottom: 1rem;
 }
 
