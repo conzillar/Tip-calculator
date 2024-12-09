@@ -7,6 +7,7 @@
 html,
 body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
     font-family: "Poppins", sans-serif;
 }
 
@@ -161,4 +162,27 @@ input {
     border-radius: 5px;
     text-align: center;
     display: none;
+}
+@media screen and (max-width:480px) {
+    .main{
+        width: 100%;
+        display: flex;
+        padding: 50px 10px;
+        /* flex-direction: column; */
+    }
+    .input, .cont, .input1, .cont, .input2, .coont{
+        width: 95%;
+    }
+    h4{
+        font-size: 10px;
+    }
+    .btn{
+        padding: 10px 20px;
+        margin-left: -1rem;
+    }
+    .btt{
+        padding: 10px 50px;
+        margin-top: 4.8rem;
+    }
+
 }
